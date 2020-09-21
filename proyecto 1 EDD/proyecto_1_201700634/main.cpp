@@ -2,8 +2,11 @@
 #include<iostream>
 using namespace std;
 
+//void encabezado();
 int main()
 {
+//    encabezado();
+//    cout << "hola mundo"<<endl;
     cout << "*****************************************************"<<endl;
     cout << "* USAC                                              *"<<endl;
     cout << "*ESTRUCTURA DE DATOS                                *"<<endl;
@@ -22,3 +25,11 @@ int main()
     return 0;
 }
 
+//class encabezado
+//{
+//    void encabezado2(){
+//        cout << "hola mundo"<<endl;
+//        return 0;
+//    }
+
+//};
