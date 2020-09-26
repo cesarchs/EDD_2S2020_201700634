@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.0, 2020-09-20T23:54:55. -->
+<!-- Written by QtCreator 4.13.0, 2020-09-26T01:08:16. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -336,6 +336,7 @@
     <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseTerminal">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/escritorio/EDD LAB/proyecto 1 EDD/build-proyecto_1_201700634-Desktop_Qt_5_15_0_MinGW_64_bit-Debug</value>
    </valuemap>

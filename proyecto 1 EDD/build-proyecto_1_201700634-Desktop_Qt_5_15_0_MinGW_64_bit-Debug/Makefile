@@ -223,6 +223,7 @@ Makefile: ../proyecto_1_201700634/proyecto_1_201700634.pro ../../../../Qt/5.15.0
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/qt_config.prf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/win32-g++/qmake.conf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/exclusive_builds.prf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/toolchain.prf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/default_pre.prf \
@@ -238,6 +239,8 @@ Makefile: ../proyecto_1_201700634/proyecto_1_201700634.pro ../../../../Qt/5.15.0
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/resources_functions.prf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/resources.prf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/moc.prf \
+		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/win32/opengl.prf \
+		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/uic.prf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/qmake_use.prf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/file_copies.prf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/testcase_targets.prf \
@@ -245,8 +248,9 @@ Makefile: ../proyecto_1_201700634/proyecto_1_201700634.pro ../../../../Qt/5.15.0
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/yacc.prf \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/lex.prf \
 		../proyecto_1_201700634/proyecto_1_201700634.pro \
+		../../../../Qt/5.15.0/mingw81_64/lib/Qt5Widgets.prl \
+		../../../../Qt/5.15.0/mingw81_64/lib/Qt5Gui.prl \
 		../../../../Qt/5.15.0/mingw81_64/lib/Qt5Core.prl \
-		.qmake.stash \
 		../../../../Qt/5.15.0/mingw81_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\proyecto_1_201700634\proyecto_1_201700634.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/spec_pre.prf:
@@ -402,6 +406,7 @@ Makefile: ../proyecto_1_201700634/proyecto_1_201700634.pro ../../../../Qt/5.15.0
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/qt_config.prf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/win32-g++/qmake.conf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/exclusive_builds.prf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/toolchain.prf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/default_pre.prf:
@@ -417,6 +422,8 @@ Makefile: ../proyecto_1_201700634/proyecto_1_201700634.pro ../../../../Qt/5.15.0
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/resources_functions.prf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/resources.prf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/moc.prf:
+../../../../Qt/5.15.0/mingw81_64/mkspecs/features/win32/opengl.prf:
+../../../../Qt/5.15.0/mingw81_64/mkspecs/features/uic.prf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/qmake_use.prf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/file_copies.prf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/testcase_targets.prf:
@@ -424,8 +431,9 @@ Makefile: ../proyecto_1_201700634/proyecto_1_201700634.pro ../../../../Qt/5.15.0
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/yacc.prf:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/lex.prf:
 ../proyecto_1_201700634/proyecto_1_201700634.pro:
+../../../../Qt/5.15.0/mingw81_64/lib/Qt5Widgets.prl:
+../../../../Qt/5.15.0/mingw81_64/lib/Qt5Gui.prl:
 ../../../../Qt/5.15.0/mingw81_64/lib/Qt5Core.prl:
-.qmake.stash:
 ../../../../Qt/5.15.0/mingw81_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\proyecto_1_201700634\proyecto_1_201700634.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
