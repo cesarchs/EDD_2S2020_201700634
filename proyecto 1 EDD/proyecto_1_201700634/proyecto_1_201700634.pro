@@ -12,8 +12,11 @@ QT += widgets
 
 SOURCES += \
         arbolavl.cpp \
+        listanivel.cpp \
         main.cpp \
-        nodoavl.cpp
+        nodoavl.cpp \
+        nodomatriz.cpp \
+        nodonivel.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -22,4 +25,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     arbolavl.h \
-    nodoavl.h
+    listanivel.h \
+    nodoavl.h \
+    nodomatriz.h \
+    nodonivel.h
