@@ -2,9 +2,10 @@
 
 NodoAvl::NodoAvl(int valor)
 {
+//     this ->ubicacionLista = listaUbicacion;
      this->dato = valor;
-     this->izdo =this->dcho= NULL;
-     this->fe = 0;
+     this->izquierdo =this->derecho= NULL;
+     this->FactorEquilibrio = 0;
 }
 //-------------------------------------
 
@@ -13,29 +14,29 @@ int NodoAvl::valorNodo(){
 }
 
 NodoAvl* NodoAvl::subarbolIzdo(){
-    return this->izdo;
+    return this->izquierdo;
 }
 
 
 NodoAvl* NodoAvl::subarbolDcho(){
-    return this->dcho;
+    return this->derecho;
 }
 
 
 void NodoAvl::ramaIzdo(NodoAvl *n){
-    this->izdo = n;
+    this->izquierdo = n;
 }
 
 void NodoAvl::ramaDcho(NodoAvl *n){
-    this->dcho =n;
+    this->derecho =n;
 }
 
 
 
 void NodoAvl::Pfe(int vfe){
-    this->fe = vfe;
+    this->FactorEquilibrio = vfe;
 }
 
 int NodoAvl::Ofe(){
-    return this->fe;
+    return this->FactorEquilibrio;
 }

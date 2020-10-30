@@ -1,0 +1,13 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=seashell2];
+nodo124 [ label ="<C0>|124|<C1>"];
+nodo123 [ label ="123"];
+nodo124:C0->nodo123
+nodo126 [ label ="<C0>|126|<C1>"];
+nodo125 [ label ="125"];
+nodo126:C0->nodo125
+nodo127 [ label ="127"];
+nodo126:C1->nodo127
+nodo124:C1->nodo126
+}

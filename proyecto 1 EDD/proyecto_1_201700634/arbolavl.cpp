@@ -180,10 +180,10 @@ void ArbolAvl::ObtenerGrafo(NodoAvl *raiz){
              "}\n";
 
     ofstream archivo;
-    archivo.open("arbol.dot",ios::out);
+    archivo.open("arbolavl.dot",ios::out);
     archivo <<dotocompleto;
     archivo.close();
-    system("dot arbol.dot -Tpng -o arbol.png");
+    system("dot arbolavl.dot -Tpng -o arbolavl.png");
 }
 
 string ArbolAvl::obtenerDot(NodoAvl *root){

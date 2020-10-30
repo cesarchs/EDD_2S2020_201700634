@@ -1,9 +1,11 @@
 #ifndef nodoMatriz_H
 #define nodoMatriz_H
-#include <nodoavl.h>
+
 #include<iostream>
 #include<string>
 using namespace std;
+//#include <arbolabb.h>
+#include<nodoabb.h>
 
 class nodoMatriz
 {
@@ -18,8 +20,11 @@ public:
     int posX;
     int posY;
     string nombre;
+    string color;
 //    estudiante * infoestu;
-    nodoMatriz(nodoMatriz*, nodoMatriz*, nodoMatriz*, nodoMatriz*, nodoMatriz*, nodoMatriz*, int, int, string );//, estudiante*);
+    nodoABB * nodoObjeto;
+//    ArbolABB * arbolNivel;
+    nodoMatriz(nodoMatriz*, nodoMatriz*, nodoMatriz*, nodoMatriz*, nodoMatriz*, nodoMatriz*, int, int, string, string, nodoABB*);//, estudiante*);
 };
 
 #endif // nodoMatriz_H

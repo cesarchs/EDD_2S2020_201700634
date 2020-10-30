@@ -1,0 +1,17 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=seashell2];
+nodo122 [ label ="<C0>|122 objeto1|<C1>"];
+nodo120 [ label ="<C0>|120 objeto3|<C1>"];
+nodo121 [ label ="121 objeto4"];
+nodo120:C1->nodo121
+nodo122:C0->nodo120
+nodo123 [ label ="<C0>|123 objeto2|<C1>"];
+nodo125 [ label ="<C0>|125 objeto5|<C1>"];
+nodo127 [ label ="<C0>|127 objeto6|<C1>"];
+nodo129 [ label ="129 objeto7"];
+nodo127:C1->nodo129
+nodo125:C1->nodo127
+nodo123:C1->nodo125
+nodo122:C1->nodo123
+}

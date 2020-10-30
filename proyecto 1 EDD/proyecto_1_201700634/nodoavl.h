@@ -2,25 +2,26 @@
 #define NODOAVL_H
 #include <iostream>
 #include <string>
-#include<listanivel.h>
+//llamanos a la lista por que en proyecto tiene una lista de niveles que a su vez cada nivel tiene una matriz dispersa
+//#include <nodonivel.h>
 using namespace std;
-//#include "matriz.h"
-
-using namespace std;
-
+// LO NOBRAMOS NODOavl PERO DEBERIA O PODRIA LLAMARSE NODO PROYECTO ó SOLO PROYECTO
 class NodoAvl
 {   
-
 protected:
+//    nodoNivel *ubicacionLista;
     int dato;
-    NodoAvl *izdo;
-    NodoAvl *dcho;
-    int fe;
+    NodoAvl *izquierdo;
+    NodoAvl *derecho;
+//    int fe;
+    int FactorEquilibrio;
 
 public:
     NodoAvl(int dato);
+
     // operaciones de acceso
      int valorNodo();
+
      /* metodos propios */
      NodoAvl* subarbolIzdo(); // get izq
      NodoAvl* subarbolDcho(); // get derecho

@@ -1,0 +1,354 @@
+digraph G{
+node[shape = circle]
+00 [label = "xd"pos ="0,0!",color="", style=filled]
+00 -> 01
+00 -> 10
+10 [label = "0"pos ="1,0!",color="", style=filled]
+10 -> 11
+10 -> 20
+10 -> 00
+20 [label = "1"pos ="2,0!",color="", style=filled]
+20 -> 21
+20 -> 30
+20 -> 10
+30 [label = "2"pos ="3,0!",color="", style=filled]
+30 -> 31
+30 -> 40
+30 -> 20
+40 [label = "3"pos ="4,0!",color="", style=filled]
+40 -> 41
+40 -> 50
+40 -> 30
+50 [label = "4"pos ="5,0!",color="", style=filled]
+50 -> 51
+50 -> 60
+50 -> 40
+60 [label = "5"pos ="6,0!",color="", style=filled]
+60 -> 61
+60 -> 70
+60 -> 50
+70 [label = "6"pos ="7,0!",color="", style=filled]
+70 -> 71
+70 -> 80
+70 -> 60
+80 [label = "7"pos ="8,0!",color="", style=filled]
+80 -> 81
+80 -> 90
+80 -> 70
+90 [label = "8"pos ="9,0!",color="", style=filled]
+90 -> 91
+90 -> 100
+90 -> 80
+100 [label = "9"pos ="10,0!",color="", style=filled]
+100 -> 101
+100 -> 110
+100 -> 90
+110 [label = "10"pos ="11,0!",color="", style=filled]
+110 -> 111
+110 -> 100
+01 [label = "0"pos ="0,-1!",color="", style=filled]
+01 -> 00
+01 -> 02
+01 -> 11
+11 [label = "P"pos ="1,-1!",color="#F6FB34", style=filled]
+11 -> 10
+11 -> 12
+11 -> 21
+11 -> 01
+21 [label = "P"pos ="2,-1!",color="#F6FB34", style=filled]
+21 -> 20
+21 -> 23
+21 -> 31
+21 -> 11
+31 [label = "P"pos ="3,-1!",color="#F6FB34", style=filled]
+31 -> 30
+31 -> 32
+31 -> 41
+31 -> 21
+41 [label = "P"pos ="4,-1!",color="#F6FB34", style=filled]
+41 -> 40
+41 -> 43
+41 -> 51
+41 -> 31
+51 [label = "P"pos ="5,-1!",color="#F6FB34", style=filled]
+51 -> 50
+51 -> 54
+51 -> 61
+51 -> 41
+61 [label = "P"pos ="6,-1!",color="#F6FB34", style=filled]
+61 -> 60
+61 -> 62
+61 -> 71
+61 -> 51
+71 [label = "P"pos ="7,-1!",color="#F6FB34", style=filled]
+71 -> 70
+71 -> 79
+71 -> 81
+71 -> 61
+81 [label = "P"pos ="8,-1!",color="#F6FB34", style=filled]
+81 -> 80
+81 -> 88
+81 -> 91
+81 -> 71
+91 [label = "P"pos ="9,-1!",color="#F6FB34", style=filled]
+91 -> 90
+91 -> 98
+91 -> 101
+91 -> 81
+101 [label = "P"pos ="10,-1!",color="#F6FB34", style=filled]
+101 -> 100
+101 -> 108
+101 -> 111
+101 -> 91
+111 [label = "P"pos ="11,-1!",color="#F6FB34", style=filled]
+111 -> 110
+111 -> 112
+111 -> 101
+02 [label = "1"pos ="0,-2!",color="", style=filled]
+02 -> 01
+02 -> 03
+02 -> 12
+12 [label = "P"pos ="1,-2!",color="#F6FB34", style=filled]
+12 -> 11
+12 -> 13
+12 -> 32
+12 -> 02
+32 [label = "T"pos ="3,-2!",color="#E6E6E6", style=filled]
+32 -> 31
+32 -> 33
+32 -> 62
+32 -> 12
+62 [label = "P"pos ="6,-2!",color="#CB790A", style=filled]
+62 -> 61
+62 -> 63
+62 -> 112
+62 -> 32
+112 [label = "P"pos ="11,-2!",color="#F6FB34", style=filled]
+112 -> 111
+112 -> 113
+112 -> 62
+03 [label = "2"pos ="0,-3!",color="", style=filled]
+03 -> 02
+03 -> 04
+03 -> 13
+13 [label = "P"pos ="1,-3!",color="#F6FB34", style=filled]
+13 -> 12
+13 -> 14
+13 -> 23
+13 -> 03
+23 [label = "s"pos ="2,-3!",color="#FDB546", style=filled]
+23 -> 21
+23 -> 25
+23 -> 33
+23 -> 13
+33 [label = "s"pos ="3,-3!",color="#FDB546", style=filled]
+33 -> 32
+33 -> 36
+33 -> 43
+33 -> 23
+43 [label = "s"pos ="4,-3!",color="#FDB546", style=filled]
+43 -> 41
+43 -> 45
+43 -> 63
+43 -> 33
+63 [label = "P"pos ="6,-3!",color="#F6FB34", style=filled]
+63 -> 62
+63 -> 64
+63 -> 113
+63 -> 43
+113 [label = "P"pos ="11,-3!",color="#F6FB34", style=filled]
+113 -> 112
+113 -> 114
+113 -> 63
+04 [label = "3"pos ="0,-4!",color="", style=filled]
+04 -> 03
+04 -> 05
+04 -> 14
+14 [label = "P"pos ="1,-4!",color="#F6FB34", style=filled]
+14 -> 13
+14 -> 15
+14 -> 54
+14 -> 04
+54 [label = "M"pos ="5,-4!",color="#0A18CB", style=filled]
+54 -> 51
+54 -> 55
+54 -> 64
+54 -> 14
+64 [label = "P"pos ="6,-4!",color="#F6FB34", style=filled]
+64 -> 63
+64 -> 65
+64 -> 114
+64 -> 54
+114 [label = "P"pos ="11,-4!",color="#F6FB34", style=filled]
+114 -> 113
+114 -> 115
+114 -> 64
+05 [label = "4"pos ="0,-5!",color="", style=filled]
+05 -> 04
+05 -> 06
+05 -> 15
+15 [label = "P"pos ="1,-5!",color="#F6FB34", style=filled]
+15 -> 14
+15 -> 16
+15 -> 25
+15 -> 05
+25 [label = "F"pos ="2,-5!",color="#50CB0A", style=filled]
+25 -> 23
+25 -> 26
+25 -> 45
+25 -> 15
+45 [label = "M"pos ="4,-5!",color="#0A18CB", style=filled]
+45 -> 43
+45 -> 46
+45 -> 55
+45 -> 25
+55 [label = "M"pos ="5,-5!",color="#0A18CB", style=filled]
+55 -> 54
+55 -> 56
+55 -> 65
+55 -> 45
+65 [label = "P"pos ="6,-5!",color="#F6FB34", style=filled]
+65 -> 64
+65 -> 66
+65 -> 115
+65 -> 55
+115 [label = "P"pos ="11,-5!",color="#F6FB34", style=filled]
+115 -> 114
+115 -> 116
+115 -> 65
+06 [label = "5"pos ="0,-6!",color="", style=filled]
+06 -> 05
+06 -> 07
+06 -> 16
+16 [label = "P"pos ="1,-6!",color="#F6FB34", style=filled]
+16 -> 15
+16 -> 17
+16 -> 26
+16 -> 06
+26 [label = "P"pos ="2,-6!",color="#F6FB34", style=filled]
+26 -> 25
+26 -> 29
+26 -> 36
+26 -> 16
+36 [label = "P"pos ="3,-6!",color="#F6FB34", style=filled]
+36 -> 33
+36 -> 39
+36 -> 46
+36 -> 26
+46 [label = "P"pos ="4,-6!",color="#F6FB34", style=filled]
+46 -> 45
+46 -> 49
+46 -> 56
+46 -> 36
+56 [label = "P"pos ="5,-6!",color="#F6FB34", style=filled]
+56 -> 55
+56 -> 59
+56 -> 66
+56 -> 46
+66 [label = "P"pos ="6,-6!",color="#F6FB34", style=filled]
+66 -> 65
+66 -> 67
+66 -> 116
+66 -> 56
+116 [label = "P"pos ="11,-6!",color="#F6FB34", style=filled]
+116 -> 115
+116 -> 117
+116 -> 66
+07 [label = "6"pos ="0,-7!",color="", style=filled]
+07 -> 06
+07 -> 08
+07 -> 17
+17 [label = "P"pos ="1,-7!",color="#F6FB34", style=filled]
+17 -> 16
+17 -> 18
+17 -> 67
+17 -> 07
+67 [label = "P"pos ="6,-7!",color="#F6FB34", style=filled]
+67 -> 66
+67 -> 68
+67 -> 117
+67 -> 17
+117 [label = "P"pos ="11,-7!",color="#F6FB34", style=filled]
+117 -> 116
+117 -> 118
+117 -> 67
+08 [label = "7"pos ="0,-8!",color="", style=filled]
+08 -> 07
+08 -> 09
+08 -> 18
+18 [label = "P"pos ="1,-8!",color="#F6FB34", style=filled]
+18 -> 17
+18 -> 19
+18 -> 68
+18 -> 08
+68 [label = "P"pos ="6,-8!",color="#F6FB34", style=filled]
+68 -> 67
+68 -> 69
+68 -> 88
+68 -> 18
+88 [label = "ES"pos ="8,-8!",color="#02703A", style=filled]
+88 -> 81
+88 -> 89
+88 -> 98
+88 -> 68
+98 [label = "ES"pos ="9,-8!",color="#02703A", style=filled]
+98 -> 91
+98 -> 99
+98 -> 108
+98 -> 88
+108 [label = "ES"pos ="10,-8!",color="#02703A", style=filled]
+108 -> 101
+108 -> 109
+108 -> 118
+108 -> 98
+118 [label = "P"pos ="11,-8!",color="#F6FB34", style=filled]
+118 -> 117
+118 -> 119
+118 -> 108
+09 [label = "8"pos ="0,-9!",color="", style=filled]
+09 -> 08
+09 -> 19
+19 [label = "P"pos ="1,-9!",color="#F6FB34", style=filled]
+19 -> 18
+19 -> 29
+19 -> 09
+29 [label = "P"pos ="2,-9!",color="#F6FB34", style=filled]
+29 -> 26
+29 -> 39
+29 -> 19
+39 [label = "P"pos ="3,-9!",color="#F6FB34", style=filled]
+39 -> 36
+39 -> 49
+39 -> 29
+49 [label = "P"pos ="4,-9!",color="#F6FB34", style=filled]
+49 -> 46
+49 -> 59
+49 -> 39
+59 [label = "P"pos ="5,-9!",color="#F6FB34", style=filled]
+59 -> 56
+59 -> 69
+59 -> 49
+69 [label = "P"pos ="6,-9!",color="#F6FB34", style=filled]
+69 -> 68
+69 -> 79
+69 -> 59
+79 [label = "P"pos ="7,-9!",color="#F6FB34", style=filled]
+79 -> 71
+79 -> 89
+79 -> 69
+89 [label = "P"pos ="8,-9!",color="#F6FB34", style=filled]
+89 -> 88
+89 -> 99
+89 -> 79
+99 [label = "P"pos ="9,-9!",color="#F6FB34", style=filled]
+99 -> 98
+99 -> 109
+99 -> 89
+109 [label = "P"pos ="10,-9!",color="#F6FB34", style=filled]
+109 -> 108
+109 -> 119
+109 -> 99
+119 [label = "P"pos ="11,-9!",color="#F6FB34", style=filled]
+119 -> 118
+119 -> 109
+}

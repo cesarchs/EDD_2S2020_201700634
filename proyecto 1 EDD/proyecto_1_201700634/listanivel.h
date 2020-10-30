@@ -9,7 +9,7 @@ class ListaNivel
 {
 public:
     ListaNivel();
-    void insertar(nodoMatriz *inf);
+    void insertar(int, MatrizDispersa*);
     void recorrer();
     string graficar();
     void reporte();
